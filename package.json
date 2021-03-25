@@ -37,13 +37,13 @@
     "start": "webpack serve --open",
     "build": "webpack",
     "lint": "eslint ./src",
-    "format": "prettier --write 'src/*.{js,jsx,ts,tsx,css,html}'"
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,html}'"
   },
   "eslintConfig": {
     "extends": [
+      "semistandard",
       "plugin:react/recommended",
-      "plugin:prettier/recommended",
-      "semistandard"
+      "plugin:prettier/recommended"
     ],
     "settings": {
       "react": {
