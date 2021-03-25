@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .pnp/
+.vscode/
 
 .pnp.js
 yarn.lock

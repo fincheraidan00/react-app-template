@@ -11,10 +11,8 @@ git clone https://github.com/fincheraidan00/react-app-template [DEST_FOLDER]
 Make sure to change project name to [DEST_FOLDER] in package.json file.
 Run yarn install to install all node_module files
 
-This template includes ESLint by default. ESLint must be initialized before use. 
-```bash
-yarn run eslint --init
-```
+This template includes ESLint and Prettier for code formatting. 
+My .eslintrc and .prettierrc files are included. Feel free to make your own changes to match your personal coding style
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
